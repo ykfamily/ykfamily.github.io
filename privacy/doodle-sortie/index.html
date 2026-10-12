@@ -32,7 +32,7 @@
 <p>이 개인정보처리방침은 <strong>Google Play 개발자 yktony</strong>가 배포하는 모바일 앱
 <strong>낙서대작전</strong>(영문 등록명 <strong>Doodle Sortie: Notebook Flyer</strong>, 패키지
 이름 <code>com.yk.doodlesortie</code>)에 적용됩니다.</p>
-<p class="meta">시행일: 2026년 10월 11일 · 최종 수정일: 2026년 10월 11일</p>
+<p class="meta">시행일: 2026년 10월 14일 · 최종 수정일: 2026년 10월 14일 (1.1.0의 보상형 광고 반영)</p>
 
 <h2 id="identity">1. 이 방침이 적용되는 앱과 개발자</h2>
 <table>
@@ -50,16 +50,17 @@
 
 <h2 id="summary">2. 요약</h2>
 <p>
-  <strong>본 앱은 어떠한 개인정보도 수집·저장·전송하지 않습니다.</strong>
-  회원가입이나 로그인이 없고, 서버로 보내는 데이터가 없으며, 분석 도구나 광고도 사용하지 않습니다.
-  게임 진행 상황은 오직 사용자의 기기 안에만 저장됩니다.
+  <strong>개발자는 어떠한 개인정보도 수집·저장·전송하지 않습니다.</strong> 회원가입이나 로그인이
+  없고, 개발자의 서버가 없으며, 분석 도구도 사용하지 않습니다. 게임 진행 상황은 오직 사용자의
+  기기 안에만 저장됩니다. 다만 1.1.0 버전부터 <strong>이용자가 선택해 시청하는 보상형 광고</strong>를
+  제공하며, 그 광고를 위해 Google이 처리하는 정보는 아래 5번에 적었습니다.
 </p>
 
 <h2 id="collect">3. 수집하는 개인정보</h2>
 <p>
-  <strong>없습니다.</strong> 본 앱은 이름, 이메일, 전화번호, 주소, 생년월일, 위치 정보, 연락처,
-  사진, 기기 식별자, 광고 ID 등 어떤 개인정보도 수집하지 않습니다.
-  사용자를 식별하거나 추적하지 않습니다.
+  <strong>없습니다.</strong> 개발자는 이름, 이메일, 전화번호, 주소, 생년월일, 위치 정보, 연락처,
+  사진 등 어떤 개인정보도 수집하지 않으며, 사용자를 식별하거나 추적하지 않습니다. 광고 식별자와
+  IP 주소는 개발자가 수집·열람하지 않고, 광고 표시를 위해 Google이 처리합니다(아래 5번).
 </p>
 
 <h2 id="device">4. 기기에 저장되는 정보</h2>
@@ -80,27 +81,50 @@
 
 <h2 id="third">5. 제3자 서비스 및 광고</h2>
 <p>
-  <strong>본 버전에는 광고가 없습니다.</strong> 광고 SDK가 앱에 포함되어 있지 않으며, 광고 ID
-  (<code>com.google.android.gms.permission.AD_ID</code>)를 요청하거나 읽지 않습니다.
-  분석(애널리틱스), 크래시 리포팅, 소셜 로그인 등 사용자 정보를 다루는 제3자 서비스도
-  사용하지 않습니다. <strong>제3자에게 제공하거나 공유하는 데이터가 없습니다.</strong>
+  <strong>본 앱의 광고는 이용자가 직접 선택해 시청하는 보상형 광고뿐입니다.</strong>
+  배너 광고, 갑자기 뜨는 전면 광고, 플레이 횟수에 따라 자동으로 재생되는 광고는 없습니다.
+  광고는 다음 세 곳에서 버튼을 눌렀을 때만 재생됩니다.
+</p>
+<ul>
+  <li>게임오버 화면의 <strong>부활하기</strong> (무료 부활권을 보유하지 않은 경우에 한함)</li>
+  <li>결과 화면의 <strong>스티커 2배</strong></li>
+  <li>스테이지 선택 화면의 <strong>지우개 +1 들고 시작</strong></li>
+</ul>
+<p>
+  광고를 보지 않아도 모든 스테이지와 기체를 플레이로 획득할 수 있습니다. 또한
+  <strong>게임 플레이 중, 일시정지 화면, 설치 후 첫 실행에서는 광고를 표시하지 않습니다.</strong>
 </p>
 <p>
-  향후 업데이트에서 광고를 도입할 경우, 해당 버전을 배포하기 <strong>전에</strong> 이 방침과
-  Google Play 데이터 보안(Data safety) 정보를 먼저 갱신합니다.
+  광고는 Google의 모바일 광고 서비스(AdMob)가 제공하며, 광고 표시·성과 측정·부정 방지를 위해
+  Google이 다음 정보를 처리할 수 있습니다: <strong>기기 또는 기타 식별자(광고 식별자 포함),
+  앱 상호작용 정보(광고 노출·클릭·시청 완료), 진단 정보(기기 종류, OS 버전, 대략적인 지역).</strong>
+  자세한 내용은 <a href="https://policies.google.com/privacy">Google 개인정보처리방침</a>을
+  참고하세요. Google은 국외에 서버를 둘 수 있습니다.
+</p>
+<p>
+  <strong>개발자는 이 정보를 수집하거나 열람하지 않습니다.</strong> 분석(애널리틱스), 크래시
+  리포팅, 소셜 로그인 등 다른 제3자 서비스는 사용하지 않습니다.
+</p>
+<p>
+  유럽경제지역(EEA) 등에서는 첫 실행 시 Google의 동의 양식(UMP)이 표시되며, 게임의
+  <strong>설정 → 개인정보 옵션</strong>에서 언제든지 다시 설정할 수 있습니다.
+  <a href="https://adssettings.google.com">Google 광고 설정</a>이나 기기의 광고 설정에서 광고
+  식별자를 재설정하거나 맞춤형 광고를 거부할 수도 있습니다.
 </p>
 
 <h2 id="network">6. 네트워크 사용</h2>
 <p>
-  본 앱은 완전히 오프라인으로 동작합니다. 게임 플레이에 인터넷 연결이 필요하지 않고, 앱이
-  네트워크 요청을 보내지 않으며, <strong>인터넷 권한(<code>android.permission.INTERNET</code>)을
-  포함한 어떤 Android 권한도 요청하지 않습니다.</strong>
+  게임 플레이 자체는 완전히 오프라인으로 동작합니다. 인터넷 권한
+  (<code>android.permission.INTERNET</code>)은 <strong>보상형 광고를 불러올 때만</strong>
+  사용되며, 광고를 보지 않으면 네트워크를 사용하지 않습니다. 위치·연락처·저장소·카메라 등
+  다른 Android 권한은 요청하지 않습니다.
 </p>
 
 <h2 id="children">7. 아동의 개인정보</h2>
 <p>
-  본 앱은 만 13세 미만 아동을 대상으로 설계되지 않았으며, 아동을 포함한 어떤 사용자로부터도
-  개인정보를 수집하지 않습니다. 수집하는 정보가 없으므로 보호자의 요청에 따라 삭제할 개인정보도
+  본 앱은 만 13세 미만 아동을 대상으로 설계되지 않았으며(Google Play 타겟 연령 만 13세 이상),
+  개발자는 아동을 포함한 어떤 사용자로부터도 개인정보를 수집하지 않습니다. 광고는 아동 대상
+  맞춤형 광고로 설정되어 있지 않습니다. 수집하는 정보가 없으므로 보호자의 요청에 따라 삭제할 개인정보도
   존재하지 않습니다. 기기에 저장된 게임 기록은 앱 삭제로 제거할 수 있습니다.
 </p>
 
@@ -130,7 +154,7 @@
 English as <strong>Doodle Sortie: Notebook Flyer</strong>, package name
 <code>com.yk.doodlesortie</code>, <strong>published on Google Play by the developer
 yktony</strong>.</p>
-<p class="meta">Effective: 11 October 2026 · Last updated: 11 October 2026</p>
+<p class="meta">Effective: 14 October 2026 · Last updated: 14 October 2026 (rewarded ads added in 1.1.0)</p>
 
 <h2>1. The app and developer this policy covers</h2>
 <table>
@@ -148,16 +172,19 @@ yktony</strong>.</p>
 
 <h2>2. Summary</h2>
 <p>
-  <strong>This app collects, stores and transmits no personal data.</strong> There is no account and
-  no sign-in, nothing is sent to a server, and the app uses no analytics and no advertising. Your
-  game progress is saved only on your own device.
+  <strong>The developer collects, stores and transmits no personal data.</strong> There is no
+  account and no sign-in, there is no developer server, and the app uses no analytics. Your game
+  progress is saved only on your own device. From version 1.1.0 the app offers
+  <strong>rewarded ads you choose to watch</strong>; what Google processes for those is in
+  section 5.
 </p>
 
 <h2>3. Personal data we collect</h2>
 <p>
-  <strong>None.</strong> The app does not collect your name, e-mail address, phone number, postal
-  address, date of birth, location, contacts, photos, device identifiers or advertising ID. It does
-  not identify or track users.
+  <strong>None.</strong> The developer does not collect your name, e-mail address, phone number,
+  postal address, date of birth, location, contacts or photos, and does not identify or track you.
+  The advertising ID and IP address are never collected or read by the developer; Google processes
+  them to show an ad (section 5).
 </p>
 
 <h2>4. What is stored on your device</h2>
@@ -177,27 +204,48 @@ yktony</strong>.</p>
 
 <h2>5. Third-party services and advertising</h2>
 <p>
-  <strong>This version contains no ads.</strong> No advertising SDK is included in the app, and it
-  neither requests nor reads the advertising ID
-  (<code>com.google.android.gms.permission.AD_ID</code>). It uses no analytics, no crash reporting
-  and no social sign-in. <strong>No data is shared with any third party.</strong>
+  <strong>The only ads in this app are rewarded ads you choose to watch.</strong> There are no
+  banners, no pop-up interstitials, and no ad that plays on a timer or after a number of rounds.
+  An ad plays only where you tap for it:
+</p>
+<ul>
+  <li><strong>Revive</strong> on the game-over screen, and only when no free revive ticket is held</li>
+  <li><strong>Double stickers</strong> on the result screen</li>
+  <li><strong>Start with +1 eraser</strong> on the stage select</li>
+</ul>
+<p>
+  Nothing is locked behind an ad — every stage and every craft can be earned by playing. No ad is
+  ever shown <strong>during play, on the pause screen, or in the first session after installing</strong>.
 </p>
 <p>
-  If a future update introduces advertising, this policy and the Google Play Data safety section
-  will be updated <strong>before</strong> that version is released.
+  Ads are served by Google's Mobile Ads service (AdMob). To show them, measure their performance
+  and prevent fraud, Google may process <strong>device or other identifiers (including the
+  advertising ID), app interactions (an ad shown, clicked or watched to the end) and diagnostics
+  (device model, OS version, approximate region)</strong>. See the
+  <a href="https://policies.google.com/privacy">Google Privacy Policy</a>; Google may store this
+  outside your country. <strong>The developer neither collects nor sees any of it.</strong> The app
+  uses no analytics, no crash reporting and no social sign-in.
+</p>
+<p>
+  Where the law requires it, Google's consent form (UMP) appears on first launch, and you can
+  change your choice at any time from <strong>Settings → Privacy options</strong> in the game. You
+  can also reset your advertising ID or opt out of personalised ads at
+  <a href="https://adssettings.google.com">Google Ad Settings</a> or in your device settings.
 </p>
 
 <h2>6. Network use</h2>
 <p>
-  The app works fully offline. No internet connection is needed to play, the app makes no network
-  requests, and it <strong>requests no Android permissions at all</strong> — not even
-  <code>android.permission.INTERNET</code>.
+  Playing the game works fully offline. The internet permission
+  (<code>android.permission.INTERNET</code>) is used <strong>only to fetch a rewarded ad</strong>;
+  if you never watch one, the app makes no network request. No other Android permission —
+  location, contacts, storage, camera — is requested.
 </p>
 
 <h2>7. Children's privacy</h2>
 <p>
-  This app is not directed at children under 13, and it collects no personal data from anyone,
-  children included. Because nothing is collected, there is no personal data for a parent or
+  This app is not directed at children under 13 (its Google Play target age is 13+), and the
+  developer collects no personal data from anyone, children included. Ads are not configured for
+  child-directed treatment. Because nothing is collected, there is no personal data for a parent or
   guardian to request the deletion of. Game progress stored on the device can be removed by
   uninstalling the app.
 </p>
